@@ -1,6 +1,6 @@
-package com.atguigu.model.process;
+package com.cnic.model.process;
 
-import com.atguigu.model.base.BaseEntity;
+import com.cnic.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;

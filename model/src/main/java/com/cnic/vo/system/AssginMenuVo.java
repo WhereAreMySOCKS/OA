@@ -1,4 +1,4 @@
-package com.atguigu.vo.system;
+package com.cnic.vo.system;
 
 
 import io.swagger.annotations.ApiModel;

@@ -1,6 +1,6 @@
 //
 //
-package com.atguigu.vo.system;
+package com.cnic.vo.system;
 
 
 import lombok.Data;

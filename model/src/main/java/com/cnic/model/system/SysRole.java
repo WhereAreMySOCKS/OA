@@ -1,8 +1,8 @@
-package com.atguigu.model.system;
+package com.cnic.model.system;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.atguigu.model.base.BaseEntity;
+import com.cnic.model.base.BaseEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -12,7 +12,6 @@ import lombok.Data;
 @ApiModel(description = "角色")
 @TableName("sys_role")
 public class SysRole extends BaseEntity {
-	
 	private static final long serialVersionUID = 1L;
 
 	//@NotBlank(message = "角色名称不能为空")

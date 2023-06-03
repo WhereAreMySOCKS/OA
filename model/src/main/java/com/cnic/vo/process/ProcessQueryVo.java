@@ -1,4 +1,4 @@
-package com.atguigu.vo.process;
+package com.cnic.vo.process;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModel;

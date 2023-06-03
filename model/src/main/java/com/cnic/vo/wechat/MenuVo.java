@@ -1,4 +1,4 @@
-package com.atguigu.vo.wechat;
+package com.cnic.vo.wechat;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModel;

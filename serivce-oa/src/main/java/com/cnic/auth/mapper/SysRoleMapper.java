@@ -1,4 +1,4 @@
-package com.cnic.mapper;
+package com.cnic.auth.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.cnic.model.system.SysRole;
