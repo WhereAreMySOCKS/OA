@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/cnic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/cnic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/ProcessRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/ProcessRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/ProcessTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/ProcessTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/ProcessType.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/process/ProcessType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysLoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysLoginLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysOperLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysOperLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysRoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/system/SysUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/wechat/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/model/wechat/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ApprovalVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ApprovalVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ProcessFormVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ProcessFormVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ProcessQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ProcessQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ProcessVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/process/ProcessVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/AssginMenuVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/AssginMenuVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/AssginRoleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/AssginRoleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/LoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/MetaVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/MetaVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/RouterVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/RouterVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysLoginLogQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysLoginLogQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysOperLogQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysOperLogQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysPostQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysPostQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysRoleQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysRoleQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysUserQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysUserQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/wechat/BindPhoneVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/wechat/BindPhoneVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/wechat/MenuVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/wechat/MenuVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serivce-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serivce-oa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serivce-oa/src/test/java/com/cnic/auth/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/serivce-oa/src/test/java/com/cnic/auth/MyTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/apache-maven-3.9.2/repository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.9.2" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.9.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QNG3zd0vaRSLqyUhuJY3NsUX9e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paul/JavaProject/OA/model/src/main/java/com/cnic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22528736&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1f156f60036c6f22df8179895d65ac76&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model/src/main/java/com/cnic" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cnic.auth" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.testSerivce">
+    <configuration name="MyTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serivce-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnic.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cnic.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.cnic.auth.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serivce-oa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serivce-oa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serivce-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnic.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cnic.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.cnic.auth.MyTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testSerivce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serivce-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnic.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cnic.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.cnic.auth.MyTest" />
+      <option name="METHOD_NAME" value="testSerivce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="OA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="OA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.testSerivce" />
+        <item itemvalue="JUnit.MyTest.testAdd" />
+        <item itemvalue="JUnit.MyTest (1)" />
+        <item itemvalue="JUnit.MyTest" />
+        <item itemvalue="JUnit.MyTest.getAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="" />
+      <created>1685186430800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685186430800</updated>
+      <workItem from="1685186433079" duration="3290000" />
+      <workItem from="1685189749844" duration="27000" />
+      <workItem from="1685189787450" duration="1160000" />
+      <workItem from="1685281426613" duration="1994000" />
+      <workItem from="1685435467441" duration="647000" />
+      <workItem from="1685673724877" duration="598000" />
+      <workItem from="1685695446231" duration="9000" />
+      <workItem from="1685786435289" duration="353000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1685786757163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685786757163</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1685786785272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685786785272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

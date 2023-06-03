@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="model" />
+        <module name="common-util" />
+        <module name="service-util" />
+        <module name="serivce-oa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="OA" target="1.8" />
+      <module name="serivce-oa" target="1.8" />
+      <module name="service-util" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OA" options="" />
+      <module name="common" options="" />
+      <module name="common-util" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="serivce-oa" options="-parameters" />
+      <module name="service-util" options="-parameters" />
+    </option>
+  </component>
+</project>
