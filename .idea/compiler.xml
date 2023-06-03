@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="model" />
         <module name="common-util" />
+        <module name="service-oa" />
         <module name="service-util" />
-        <module name="serivce-oa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,7 +18,7 @@
       <module name="common-util" target="1.8" />
       <module name="model" target="1.8" />
       <module name="OA" target="1.8" />
-      <module name="serivce-oa" target="1.8" />
+      <module name="service-oa" target="1.8" />
       <module name="service-util" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -28,7 +28,7 @@
       <module name="common" options="" />
       <module name="common-util" options="-parameters" />
       <module name="model" options="-parameters" />
-      <module name="serivce-oa" options="-parameters" />
+      <module name="service-oa" options="-parameters" />
       <module name="service-util" options="-parameters" />
     </option>
   </component>

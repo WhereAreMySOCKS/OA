@@ -11,7 +11,7 @@
     <modules>
         <module>common</module>
         <module>model</module>
-        <module>serivce-oa</module>
+        <module>service-oa</module>
     </modules>
 
     <properties>

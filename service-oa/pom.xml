@@ -8,7 +8,7 @@
         <artifactId>OA</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>serivce-oa</artifactId>
+    <artifactId>service-oa</artifactId>
     <packaging>jar</packaging>
 
 

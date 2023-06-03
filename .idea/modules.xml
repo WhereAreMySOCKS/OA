@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/common/common-util/common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/serivce-oa/serivce-oa.iml" filepath="$PROJECT_DIR$/serivce-oa/serivce-oa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serivce-oa/service-oa.iml" filepath="$PROJECT_DIR$/serivce-oa/service-oa.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/common/service-util/service-util.iml" />
     </modules>
   </component>
