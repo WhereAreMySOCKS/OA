@@ -1,6 +1,7 @@
 package com.cnic.auth.controller;
 
 import com.cnic.auth.service.SysRoleService;
+import com.cnic.common.result.Result;
 import com.cnic.model.system.SysRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,10 +16,9 @@ public class SysRoleController {
     @Autowired
     private SysRoleService sysRoleService;
     @GetMapping("findAll") // http://localhost:8800/admin/system/sysRole/findAll
-    public List<SysRole> findAll(){
+    public Result findAll(){
         List<SysRole> list = sysRoleService.list();
         // @RestController注解会将list转化成json格式返回
-        return list;
-
+        return Result.ok(list);
     }
 }

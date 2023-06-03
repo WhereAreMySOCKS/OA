@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/cnic/common/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/cnic/common/result/ResultCodeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/serivce-oa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/service-oa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/SysRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/src/test/java/com/cnic/auth/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/auth/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/target/classes/com/cnic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/target/classes/com/cnic/auth/ServiceAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/ServiceAuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/target/classes/com/cnic/auth/mapper/SysRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/mapper/SysRoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/target/classes/com/cnic/auth/service/SysRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/target/classes/com/cnic/auth/service/impl/SysRolServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysRolServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serivce-oa/target/test-classes/com/cnic/auth/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/test-classes/com/cnic/auth/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/service-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/service-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/service-oa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/service-oa.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +24,19 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -80,8 +70,13 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "/Users/paul/JavaProject/OA/model/src/main/java/com/cnic",
@@ -93,8 +88,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.22528736",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "spring.configuration.checksum": "1f156f60036c6f22df8179895d65ac76",
+    "settings.editor.selected.configurable": "android.project.structure",
+    "spring.configuration.checksum": "25a036c5c2c75f0392aedbf7c8de9730",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -177,6 +172,8 @@
       </method>
     </configuration>
     <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="service-oa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cnic.auth.ServiceAuthApplication" />
       <extension name="coverage">
@@ -189,6 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MyTest" />
+      <item itemvalue="JUnit.MyTest.testAdd" />
+      <item itemvalue="JUnit.MyTest.testSerivce" />
+      <item itemvalue="JUnit.MyTest (1)" />
+      <item itemvalue="Spring Boot.ServiceAuthApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServiceAuthApplication" />
@@ -214,7 +218,9 @@
       <workItem from="1685435467441" duration="647000" />
       <workItem from="1685673724877" duration="598000" />
       <workItem from="1685695446231" duration="9000" />
-      <workItem from="1685786435289" duration="2101000" />
+      <workItem from="1685786435289" duration="5446000" />
+      <workItem from="1685798563181" duration="70000" />
+      <workItem from="1685798648326" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1685786757163</created>
@@ -237,11 +243,29 @@
       <option name="project" value="LOCAL" />
       <updated>1685786950397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init commit">
+      <created>1685788617738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685788617738</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
