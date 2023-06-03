@@ -10,6 +10,8 @@
     </parent>
 
     <artifactId>service-util</artifactId>
+    <dependencies>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
