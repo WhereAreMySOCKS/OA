@@ -23,6 +23,8 @@ public class SysRoleController {
     @ApiOperation("查询所有角色")
     @GetMapping("findAll") // http://localhost:8800/admin/system/sysRole/findAll
     public Result findAll(){
+        // 异常
+        int x = 10/0;
         List<SysRole> list = sysRoleService.list();
         // @RestController注解会将list转化成json格式返回
         return Result.ok(list);
