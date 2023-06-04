@@ -11,10 +11,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @Api("角色管理接口")
@@ -30,7 +27,7 @@ public class SysRoleController {
         // @RestController注解会将list转化成json格式返回
         return Result.ok(list);
     }
-    @ApiOperation("查询所有角色")
+    @ApiOperation("分页查询")
     @GetMapping("{page}/{limit}")
     // 参数分别为 当前页，每页数，页对象
     public Result pageQueryRole(@PathVariable Long page,
@@ -47,5 +44,44 @@ public class SysRoleController {
         }
         IPage<SysRole> iPage = sysRoleService.page(pageParam,wrapper);
         return Result.ok(iPage);
+    }
+
+    @ApiOperation("添加角色")
+    @PostMapping("save")
+    // @RequestBody通过json数据传送数据，使用该注解应该使用post提交
+    public Result save(@RequestBody SysRole sysRole) {
+        boolean isSuccess = sysRoleService.save(sysRole);
+        if (isSuccess) return Result.ok();
+        else return Result.fail();
+    }
+
+    @ApiOperation("根据id查询")
+    @GetMapping("get/{id}")
+    public Result get(@PathVariable Long id) {
+        SysRole sysRole = sysRoleService.getById(id);
+        return Result.ok(sysRole);
+    }
+
+    @ApiOperation("修改角色")
+    @PutMapping("update")
+    public Result get(@RequestBody SysRole sysRole) {
+        boolean isSuccess = sysRoleService.updateById(sysRole);
+        if (isSuccess) return Result.ok();
+        else return Result.fail();
+    }
+    @ApiOperation("id删除角色")
+    @DeleteMapping("remove/{id}")
+    public Result remove(@PathVariable Long id) {
+        boolean isSuccess = sysRoleService.removeById(id);
+        if (isSuccess) return Result.ok();
+        else return Result.fail();
+    }
+    @ApiOperation("批量删除")
+    @DeleteMapping("batchRemove")
+    // 传入数组格式
+    public Result batchRemove(@RequestBody List<Long> ids) {
+        boolean isSuccess = sysRoleService.removeByIds(ids);
+        if (isSuccess) return Result.ok();
+        else return Result.fail();
     }
 }

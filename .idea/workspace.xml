@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="add knife4j">
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/common/config/mp/MybatisPlusConfig.java" afterDir="false" />
+    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="add page limit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/common/config/knife4j/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/common/config/knife4j/Knife4jConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysRoleQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/cnic/vo/system/SysRoleQueryVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/classes/com/cnic/vo/system/SysRoleQueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/cnic/vo/system/SysRoleQueryVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/target/classes/com/cnic/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/ServiceAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/ServiceAuthApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysRoleController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +217,7 @@
       <workItem from="1685786435289" duration="5446000" />
       <workItem from="1685798563181" duration="70000" />
       <workItem from="1685798648326" duration="3849000" />
-      <workItem from="1685857355507" duration="2757000" />
+      <workItem from="1685857355507" duration="4195000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1685786757163</created>
@@ -275,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685800814590</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add page limit">
+      <created>1685883266523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685883266523</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add page limit">
+      <created>1685883279606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685883279606</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +304,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="add Result" />
     <MESSAGE value="add knife4j" />
-    <option name="LAST_COMMIT_MESSAGE" value="add knife4j" />
+    <MESSAGE value="add page limit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page limit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
