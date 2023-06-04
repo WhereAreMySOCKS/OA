@@ -44,7 +44,7 @@ public class Knife4jConfig {
                 .apiInfo(adminApiInfo())
                 .select()
                 //只显示admin路径下的页面
-                .apis(RequestHandlerSelectors.basePackage("com.jerry"))
+                .apis(RequestHandlerSelectors.basePackage("com.cnic"))
                 .paths(PathSelectors.regex("/admin/.*"))
                 .build()
                 .globalOperationParameters(pars);
@@ -57,7 +57,7 @@ public class Knife4jConfig {
                 .title("后台管理系统-API文档")
                 .description("本文档描述了后台管理系统微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("jerry", "https://jerry-jy.co", "jinyang9248@163.com"))
+                .contact(new Contact("Paul", "https://www.bing.com", "gsp124@126.com"))
                 .build();
     }
 
