@@ -14,4 +14,14 @@ public class GlobalExceptionHandler {
     public Result error(){
         return Result.fail().message("全局异常处理");
     }
+
+    //特定异常ArithmeticException处理
+    @ExceptionHandler(ArithmeticException.class)
+    @ResponseBody
+    public Result error(ArithmeticException e){
+        e.printStackTrace();
+        return Result.fail().message("特定异常处理");
+    }
+
+
 }
