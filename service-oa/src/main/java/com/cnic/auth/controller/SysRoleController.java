@@ -29,7 +29,7 @@ public class SysRoleController {
         // @RestController注解会将list转化成json格式返回
         return Result.ok(list);
     }
-    @ApiOperation("分页查询")
+    @ApiOperation("条件分页查询")
     @GetMapping("{page}/{limit}")
     // 参数分别为 当前页，每页数，页对象
     public Result pageQueryRole(@PathVariable Long page,
