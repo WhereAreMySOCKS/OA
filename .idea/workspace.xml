@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="add 前端接口">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/xml/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code/CodeGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/service-oa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/service-oa.iml" afterDir="false" />
-    </list>
+    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="add 用户模块" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,7 +221,7 @@
       <workItem from="1685956126488" duration="1492000" />
       <workItem from="1686065240169" duration="599000" />
       <workItem from="1686470179927" duration="6523000" />
-      <workItem from="1686479571881" duration="5971000" />
+      <workItem from="1686479571881" duration="6608000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1685786757163</created>
@@ -326,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686489699559</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add 用户模块">
+      <created>1686491701585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686491701585</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +347,8 @@
     <MESSAGE value="add more" />
     <MESSAGE value="add 异常处理" />
     <MESSAGE value="add 前端接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 前端接口" />
+    <MESSAGE value="add 用户模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 用户模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
