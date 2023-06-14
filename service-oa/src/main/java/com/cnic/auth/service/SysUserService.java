@@ -13,4 +13,5 @@ import com.cnic.model.system.SysUser;
  */
 public interface SysUserService extends IService<SysUser> {
 
+    void updateStatus(Long userId,  Integer status);
 }

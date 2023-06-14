@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.cnic.auth.service.SysRoleService;
 import com.cnic.common.result.Result;
 import com.cnic.model.system.SysRole;
+import com.cnic.vo.system.AssginRoleVo;
 import com.cnic.vo.system.SysRoleQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -14,21 +15,41 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-@Api("角色管理接口")
+import java.util.Map;
+import java.util.Objects;
+
+@Api(tags = "角色管理接口")
 @RestController //注册controller，交给Spring管理，同时以json文件格式返回方法结果
 @RequestMapping("/admin/system/sysRole")
 public class SysRoleController {
     @Autowired
     private SysRoleService sysRoleService;
-    @ApiOperation("查询所有角色")
-    @GetMapping("findAll") // http://localhost:8800/admin/system/sysRole/findAll
-    public Result findAll(){
-        // 异常
-        int x = 10/0;
-        List<SysRole> list = sysRoleService.list();
-        // @RestController注解会将list转化成json格式返回
-        return Result.ok(list);
+    // 查询所有角色 和 用户所属角色
+    @ApiOperation("获取角色")
+    @GetMapping("/toAssign/{userId}")
+    public Result toAssign(@PathVariable Long userId){
+        Map<String, Object> map = sysRoleService.findRoleDataByUserId(userId);
+        return Result.ok(map);
     }
+    @ApiOperation("为用户分配角色")
+    @PostMapping("/doAssign")
+    public Result doAssign(@RequestBody AssginRoleVo assginRoleVo){
+        sysRoleService.doAssign(assginRoleVo);
+        return Result.ok();
+    }
+
+
+
+
+
+
+//    @ApiOperation("查询所有角色")
+//    @GetMapping("findAll") // http://localhost:8800/admin/system/sysRole/findAll
+//    public Result findAll(){
+//        List<SysRole> list = sysRoleService.list();
+//        // @RestController注解会将list转化成json格式返回
+//        return Result.ok(list);
+//    }
     @ApiOperation("条件分页查询")
     @GetMapping("{page}/{limit}")
     // 参数分别为 当前页，每页数，页对象

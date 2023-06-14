@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="add 用户模块" />
+    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="add 用户模块">
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/xml/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code/CodeGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code/CodeGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysRolServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysRolServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/test-classes/com/cnic/code/CodeGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/test-classes/com/cnic/code/CodeGet.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,33 +78,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/paul/JavaProject/OA/service-oa/src/test/java/com/cnic/code",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22528736",
-    "settings.editor.selected.configurable": "android.project.structure",
-    "spring.configuration.checksum": "3e04f95f9ede86dd2966914b40c25066",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paul/JavaProject/OA/service-oa/src/test/java/com/cnic/code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22528736&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;android.project.structure&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3e04f95f9ede86dd2966914b40c25066&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code" />
@@ -221,7 +242,8 @@
       <workItem from="1685956126488" duration="1492000" />
       <workItem from="1686065240169" duration="599000" />
       <workItem from="1686470179927" duration="6523000" />
-      <workItem from="1686479571881" duration="6608000" />
+      <workItem from="1686479571881" duration="6709000" />
+      <workItem from="1686729032849" duration="5298000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1685786757163</created>
@@ -321,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686491701585</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add 用户模块">
+      <created>1686492069312</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686492069312</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,9 +383,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

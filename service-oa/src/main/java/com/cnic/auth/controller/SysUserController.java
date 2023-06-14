@@ -21,11 +21,18 @@ import org.springframework.web.bind.annotation.*;
  * @since 2023-06-11
  */
 @RestController
-@RequestMapping("/admin/system/User")
-@Api("用户管理接口")
+@RequestMapping("/admin/system/sysUser")
+@Api(tags="用户管理接口")
 public class SysUserController {
     @Autowired
     private SysUserService service;
+
+    @ApiOperation("更改用户状态")
+    @PostMapping("/updateStatus/{userId}/{status}")
+    public Result doAssign(@PathVariable Long userId,@PathVariable Integer status){
+        service.updateStatus(userId,status);
+        return Result.ok();
+    }
     // 用户条件分页查询
     @ApiOperation("用户条件分页查询")
     @GetMapping("{page}/{limit}")
@@ -33,25 +40,26 @@ public class SysUserController {
                         @PathVariable Long limit,
                         SysUserQueryVo sysUserQueryVo){
 
-        // 创建page对象
-        Page<SysUser> pageParam = new Page<>(page,limit);
-        // 封装条件，判断值不为空
-        LambdaQueryWrapper<SysUser> wrapper = new LambdaQueryWrapper<>();
-        String username = sysUserQueryVo.getKeyword();
+        Page<SysUser> sysUserPage = new Page<>(page, limit);
+        LambdaQueryWrapper<SysUser> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+        // 获取条件
+        String userName = sysUserQueryVo.getKeyword();
         String createTimeBegin = sysUserQueryVo.getCreateTimeBegin();
         String createTimeEnd = sysUserQueryVo.getCreateTimeEnd();
-        if (StringUtils.isEmpty(username)){
-            wrapper.like(SysUser::getUsername,username);
+
+        // 判断条件值不为空
+        if (!StringUtils.isEmpty(userName)){
+            lambdaQueryWrapper.like(SysUser::getUsername,userName);
         }
-        if (StringUtils.isEmpty(createTimeBegin)){
-            wrapper.ge(SysUser::getCreateTime,createTimeBegin);
+        if (!StringUtils.isEmpty(createTimeBegin)){
+            lambdaQueryWrapper.ge(SysUser::getCreateTime,createTimeBegin);
         }
-        if (StringUtils.isEmpty(createTimeEnd)){
-            wrapper.le(SysUser::getCreateTime,createTimeEnd);
+        if (!StringUtils.isEmpty(createTimeEnd)){
+            lambdaQueryWrapper.le(SysUser::getCreateTime,createTimeEnd);
         }
-        IPage<SysUser> pageModel = service.page(pageParam, wrapper);
-        // 调用mp的方法
-        return Result.ok(pageModel);
+
+        service.page(sysUserPage,lambdaQueryWrapper);
+        return Result.ok(sysUserPage);
     }
     @ApiOperation("获取用户")
     @GetMapping("/get/{id}")
