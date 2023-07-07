@@ -4,26 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="add 用户模块">
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/xml/SysUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="update user-role">
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/common/config/exception/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/xml/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/mapper/xml/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/util/MenuHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysRolServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserRoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code/CodeGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code/CodeGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysRoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/controller/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysRolServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysRolServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysUserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/target/test-classes/com/cnic/code/CodeGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/test-classes/com/cnic/code/CodeGet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +239,10 @@
       <workItem from="1686065240169" duration="599000" />
       <workItem from="1686470179927" duration="6523000" />
       <workItem from="1686479571881" duration="6709000" />
-      <workItem from="1686729032849" duration="5298000" />
+      <workItem from="1686729032849" duration="10120000" />
+      <workItem from="1687923399988" duration="601000" />
+      <workItem from="1687942785804" duration="3474000" />
+      <workItem from="1688731567215" duration="3801000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1685786757163</created>
@@ -350,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686492069312</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update user-role">
+      <created>1686734404753</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686734404753</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +383,8 @@
     <MESSAGE value="add 异常处理" />
     <MESSAGE value="add 前端接口" />
     <MESSAGE value="add 用户模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 用户模块" />
+    <MESSAGE value="update user-role" />
+    <option name="LAST_COMMIT_MESSAGE" value="update user-role" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,6 +398,16 @@
           <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java</url>
           <line>30</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysMenuServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysMenuController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

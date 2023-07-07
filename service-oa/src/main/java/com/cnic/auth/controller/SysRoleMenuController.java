@@ -7,15 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>
- * 用户角色 前端控制器
+ * 角色菜单 前端控制器
  * </p>
  *
  * @author Paul
- * @since 2023-06-14
+ * @since 2023-06-15
  */
 @RestController
-@RequestMapping("/admin/system/sysUserRole")
-public class SysUserRoleController {
+@RequestMapping("/admin/system/sysRoleMenu")
+public class SysRoleMenuController {
 
 }
 

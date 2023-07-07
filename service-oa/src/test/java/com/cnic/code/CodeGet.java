@@ -49,7 +49,7 @@ public class CodeGet {
         StrategyConfig strategy = new StrategyConfig();
 
         // 制定表名
-        strategy.setInclude("sys_user_role");
+        strategy.setInclude("sys_menu","sys_role_menu");
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
 
