@@ -27,7 +27,6 @@ public class Result<T> {
         if (body!=null){
             result.setData(body);
         }
-
         // 状态码
         result.setCode(resultCodeEnum.getCode());
         //返回信息

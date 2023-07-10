@@ -12,7 +12,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public Result error(){
-        return Result.fail().message("全局异常处理");
+        return Result.fail().message("全局异常");
     }
 
     //特定异常ArithmeticException处理
@@ -20,8 +20,12 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public Result error(ArithmeticException e){
         e.printStackTrace();
-        return Result.fail().message("特定异常处理");
+        return Result.fail().message("特定异常");
     }
-
-
+    @ExceptionHandler(MyException.class)
+    @ResponseBody
+    public Result error(MyException e){
+        e.printStackTrace();
+        return Result.fail().code(e.getCode()).message(e.getMsg());
+    }
 }

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.cnic.auth.service.SysUserService;
 import com.cnic.common.result.Result;
+import com.cnic.common.utils.MD5;
 import com.cnic.model.system.SysUser;
 import com.cnic.vo.system.SysUserQueryVo;
 import io.swagger.annotations.Api;
@@ -82,6 +83,9 @@ public class SysUserController {
     @ApiOperation("保存用户")
     @PostMapping("/save")
     public Result save(@RequestBody SysUser sysUser){
+        // MD5 加密
+        String encrypt = MD5.encrypt(sysUser.getPassword());
+        sysUser.setPassword(encrypt);
         boolean is_success = service.save(sysUser);
         if (is_success) {
             return Result.ok();
