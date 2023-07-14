@@ -33,7 +33,7 @@ public class IndexController {
     @Autowired
     SysMenuService sysMenuService;
     @ApiOperation("登录")
-    @PostMapping("/login")
+    @PostMapping("login")
     public Result login(@RequestBody LoginVo loginVo){
         // 获取输入的用户名和密码
         String username = loginVo.getUsername();
@@ -57,16 +57,13 @@ public class IndexController {
         return Result.ok(map);
     }
 
-    /**
-     * info
-     * @return
-     */
-    @GetMapping("/info")
+
+    @GetMapping("info")
     public Result info(HttpServletRequest request){
         // 从请求头中获取token中记录的userId
-        String token = request.getHeader("header");
+        String token = request.getHeader("token");
         // 根据userId查询用户信息，分配对应权限
-        Long userId = 2L;//JwtHelper.getUserId(token);
+        Long userId = JwtHelper.getUserId(token);
         SysUser sysUser = sysUserService.getById(userId);
         List<RouterVo> routerVoList =  sysMenuService.findUserMenuListByUserId(userId);
         List<String> permsVoList = sysMenuService.findUserPermsByUserId(userId);
