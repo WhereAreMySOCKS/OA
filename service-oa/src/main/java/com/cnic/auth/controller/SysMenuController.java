@@ -24,7 +24,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/admin/system/sysMenu")
 public class SysMenuController {
-
     @Autowired
     private SysMenuService sysMenuService;
     @ApiOperation(value = "查询所有菜单和角色分配的菜单")
@@ -33,7 +32,6 @@ public class SysMenuController {
         List<SysMenu> list = sysMenuService.findMenuByRoleId(roleId);
         return Result.ok(list);
     }
-
     @ApiOperation(value = "角色分配菜单")
     @PostMapping("/doAssign")
     public Result doAssign(@RequestBody AssginMenuVo assginMenuVo ){

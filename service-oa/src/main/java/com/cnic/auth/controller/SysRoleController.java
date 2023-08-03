@@ -92,7 +92,6 @@ public class SysRoleController {
         else return Result.fail();
     }
 
-
     @ApiOperation("批量删除")
     @PreAuthorize("hasAuthority('bnt.sysRole.remove')")
     @DeleteMapping("batchRemove")

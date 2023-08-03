@@ -24,9 +24,6 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
         SysUser sysUser = baseMapper.selectById(userId);
         sysUser.setStatus(status);
         baseMapper.updateById(sysUser);
-
-
-
     }
 
     @Override

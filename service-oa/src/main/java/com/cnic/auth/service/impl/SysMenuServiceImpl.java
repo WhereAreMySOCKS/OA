@@ -54,8 +54,6 @@ public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> impl
             throw new MyException(201,"当前菜单存在子菜单，删除失败");
         }
         baseMapper.deleteById(id);
-
-
     }
 
     @Override
@@ -66,7 +64,7 @@ public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> impl
         List<SysMenu> allSysMenuList = baseMapper.selectList(sysMenuWrapper);
         // 2. 根据角色id查询对应的菜单id
         LambdaQueryWrapper<SysRoleMenu> sysRoleMenuWrapper = new LambdaQueryWrapper<>();
-        sysRoleMenuWrapper.eq(SysRoleMenu::getMenuId,roleId);
+        sysRoleMenuWrapper.eq(SysRoleMenu::getRoleId,roleId);
         List<SysRoleMenu> sysRoleMenuList = sysRoleMenuService.list(sysRoleMenuWrapper);
         List<Long> menueIdList = sysRoleMenuList.stream().map(SysRoleMenu::getMenuId).collect(Collectors.toList());
         // 3. 根据菜单id，从菜单集合（第一步获取的）获得对应的菜单对象
@@ -163,6 +161,7 @@ public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> impl
     @Override
     public List<String> findUserPermsByUserId(Long userId) {
         List<SysMenu> sysMenuList = null;
+        // admin拥有所有权限
         if(userId == 1){
             LambdaQueryWrapper<SysMenu> wrapper = new LambdaQueryWrapper<>();
             wrapper.eq(SysMenu::getStatus,1);

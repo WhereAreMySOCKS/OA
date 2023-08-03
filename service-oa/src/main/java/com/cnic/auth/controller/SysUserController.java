@@ -29,7 +29,7 @@ public class SysUserController {
     private SysUserService service;
 
     @ApiOperation("更改用户状态")
-    @PostMapping("/updateStatus/{userId}/{status}")
+    @GetMapping ("/updateStatus/{userId}/{status}")
     public Result doAssign(@PathVariable Long userId,@PathVariable Integer status){
         service.updateStatus(userId,status);
         return Result.ok();
@@ -103,6 +103,5 @@ public class SysUserController {
             return Result.fail();
         }
     }
-
 }
 
