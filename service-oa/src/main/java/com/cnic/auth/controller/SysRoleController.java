@@ -11,6 +11,7 @@ import com.cnic.vo.system.SysRoleQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -37,19 +38,7 @@ public class SysRoleController {
         sysRoleService.doAssign(assginRoleVo);
         return Result.ok();
     }
-
-
-
-
-
-
-//    @ApiOperation("查询所有角色")
-//    @GetMapping("findAll") // http://localhost:8800/admin/system/sysRole/findAll
-//    public Result findAll(){
-//        List<SysRole> list = sysRoleService.list();
-//        // @RestController注解会将list转化成json格式返回
-//        return Result.ok(list);
-//    }
+    @PreAuthorize("hasAuthority('bnt.sysRole.list')")
     @ApiOperation("条件分页查询")
     @GetMapping("{page}/{limit}")
     // 参数分别为 当前页，每页数，页对象
@@ -69,6 +58,7 @@ public class SysRoleController {
         return Result.ok(iPage);
     }
 
+    @PreAuthorize("hasAuthority('bnt.sysRole.add')")
     @ApiOperation("添加角色")
     @PostMapping("save")
     // @RequestBody通过json数据传送数据，使用该注解应该使用post提交
@@ -78,13 +68,14 @@ public class SysRoleController {
         else return Result.fail();
     }
 
+    @PreAuthorize("hasAuthority('bnt.sysRole.list')")
     @ApiOperation("根据id查询")
     @GetMapping("get/{id}")
     public Result get(@PathVariable Long id) {
         SysRole sysRole = sysRoleService.getById(id);
         return Result.ok(sysRole);
     }
-
+    @PreAuthorize("hasAuthority('bnt.sysRole.update')")
     @ApiOperation("修改角色")
     @PutMapping("update")
     public Result get(@RequestBody SysRole sysRole) {
@@ -92,6 +83,7 @@ public class SysRoleController {
         if (isSuccess) return Result.ok();
         else return Result.fail();
     }
+    @PreAuthorize("hasAuthority('bnt.sysRole.remove')")
     @ApiOperation("id删除角色")
     @DeleteMapping("remove/{id}")
     public Result remove(@PathVariable Long id) {
@@ -99,7 +91,10 @@ public class SysRoleController {
         if (isSuccess) return Result.ok();
         else return Result.fail();
     }
+
+
     @ApiOperation("批量删除")
+    @PreAuthorize("hasAuthority('bnt.sysRole.remove')")
     @DeleteMapping("batchRemove")
     // 传入数组格式
     public Result batchRemove(@RequestBody List<Long> ids) {
