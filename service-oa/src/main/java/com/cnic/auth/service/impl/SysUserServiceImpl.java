@@ -1,5 +1,6 @@
 package com.cnic.auth.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.cnic.auth.mapper.SysUserMapper;
 import com.cnic.auth.service.SysUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -26,5 +27,12 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
 
 
 
+    }
+
+    @Override
+    public SysUser getUserByUserName(String username) {
+        LambdaQueryWrapper<SysUser> wrapper = new LambdaQueryWrapper<>();
+        wrapper.eq(SysUser::getUsername, username);
+        return baseMapper.selectOne(wrapper);
     }
 }
