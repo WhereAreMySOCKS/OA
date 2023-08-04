@@ -81,7 +81,7 @@ public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> impl
     public void doAssign(AssginMenuVo assginMenuVo) {
         // 1. 删除已有的记录
         LambdaQueryWrapper<SysRoleMenu> wrapper = new LambdaQueryWrapper<>();
-        wrapper.eq(SysRoleMenu::getMenuId,assginMenuVo.getRoleId());
+        wrapper.eq(SysRoleMenu::getRoleId,assginMenuVo.getRoleId());
         sysRoleMenuService.remove(wrapper);
         // 2. 分配新的菜单
         List<Long> menuIdList = assginMenuVo.getMenuIdList();
