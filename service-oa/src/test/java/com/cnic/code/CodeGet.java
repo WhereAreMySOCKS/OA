@@ -39,7 +39,7 @@ public class CodeGet {
         // 4、包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent("com.cnic");
-        pc.setModuleName("auth"); //模块名
+        pc.setModuleName("process"); //模块名
         pc.setController("controller");
         pc.setService("service");
         pc.setMapper("mapper");
@@ -49,7 +49,7 @@ public class CodeGet {
         StrategyConfig strategy = new StrategyConfig();
 
         // 制定表名
-        strategy.setInclude("sys_menu","sys_role_menu");
+        strategy.setInclude("oa_process_type","oa_process_template");
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
 
