@@ -7,6 +7,8 @@
     <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="update redis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysMenuServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +255,7 @@
       <workItem from="1691029091219" duration="5377000" />
       <workItem from="1691047157244" duration="398000" />
       <workItem from="1691050785001" duration="11250000" />
-      <workItem from="1691125940050" duration="6270000" />
+      <workItem from="1691125940050" duration="6633000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1685786757163</created>
@@ -416,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691075343138</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update redis">
+      <created>1691137681581</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1691137681582</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,6 +476,11 @@
           <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/controller/SysUserController.java</url>
           <line>33</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysMenuServiceImpl.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
