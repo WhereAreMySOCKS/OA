@@ -16,4 +16,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface OaProcessTemplateService extends IService<ProcessTemplate> {
 
     IPage<ProcessTemplate> selectPageProcessTemplate(Page<ProcessTemplate> pageInfo);
+
+    void publish(Long id);
 }

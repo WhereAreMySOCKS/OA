@@ -37,13 +37,20 @@ public class OaProcessTemplateController {
 
     // 分页查询审批模板
     @ApiOperation("获取分页查询审批模板数据")
-    @GetMapping("{page}/{pageSize}")
-    public Result index(@PathVariable Long page, @PathVariable Long pageSize){
-        Page<ProcessTemplate> pageInfo = new Page<>(page, pageSize);
+    @GetMapping("{page}/{limit}")
+    public Result index(@PathVariable Long page, @PathVariable Long limit){
+        Page<ProcessTemplate> pageInfo = new Page<>(page, limit);
         //分页查询审批模板，把审批类型对应名称查询
         IPage<ProcessTemplate> pageModel =
                 processTemplateService.selectPageProcessTemplate(pageInfo);
         return Result.ok(pageModel);
+    }
+    //@PreAuthorize("hasAuthority('bnt.processTemplate.publish')")
+    @ApiOperation("发布")
+    @GetMapping("/publish/{id}")
+    public Result publish(@PathVariable Long id){
+        processTemplateService.publish(id);
+        return Result.ok();
     }
 
     //@PreAuthorize("hasAuthority('bnt.processTemplate.list')")
@@ -104,16 +111,6 @@ public class OaProcessTemplateController {
         map.put("processDefinitionPath", "processes/" + filename);
         map.put("processDefinitionKey", filename.substring(0, filename.lastIndexOf(".")));
         return Result.ok(map);
-    }
-
-
-    public static void main(String[] args) {
-        try {
-            String path = new File(ResourceUtils.getURL("classpath:").getPath()).getAbsolutePath();
-            System.out.println("path = " + path); //E:\CodeLife\IdeaProject\guigu-oa\guigu-oa-parent\service-oa\target\classes
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
     }
 
 

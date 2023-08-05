@@ -40,4 +40,11 @@ public class OaProcessTemplateServiceImpl extends ServiceImpl<OaProcessTemplateM
         }
         return processTemplatePage;
     }
+
+    @Override
+    public void publish(Long id) {
+        ProcessTemplate processTemplate = baseMapper.selectById(id);
+        processTemplate.setStatus(1);
+        baseMapper.updateById(processTemplate);
+    }
 }
