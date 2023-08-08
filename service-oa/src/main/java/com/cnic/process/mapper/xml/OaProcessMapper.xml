@@ -11,24 +11,24 @@
         LEFT JOIN sys_user d ON a.user_id =d.id
         LEFT JOIN oa_process_template b ON a.process_template_id = b.id
         LEFT JOIN oa_process_type c ON a.process_type_id = c.id
-<!--        <where>-->
-<!--            <if test="vo.keyword != null and vo.keyword != ''">-->
-<!--                and (a.process_code like CONCAT('%',#{vo.keyword},'%') or-->
-<!--                a.title like CONCAT('%',#{vo.keyword},'%'))-->
-<!--            </if>-->
-<!--            <if test="vo.userId != null and vo.userId != ''">-->
-<!--                and a.user_id = #{vo.userId}-->
-<!--            </if>-->
-<!--            <if test="vo.status != null and vo.status != ''">-->
-<!--                and a.status = #{vo.status}-->
-<!--            </if>-->
-<!--            <if test="vo.createTimeBegin != null and vo.createTimeBegin != ''">-->
-<!--                and a.create_time >= #{vo.createTimeBegin}-->
-<!--            </if>-->
-<!--            <if test="vo.createTimeEnd != null and vo.createTimeEnd != ''">-->
-<!--                and a.create_time &lt;= #{vo.createTimeEnd}-->
-<!--            </if>-->
-<!--        </where>-->
+        <where>
+            <if test="vo.keyword != null and vo.keyword != ''">
+                and (a.process_code like CONCAT('%',#{vo.keyword},'%') or
+                a.title like CONCAT('%',#{vo.keyword},'%'))
+            </if>
+            <if test="vo.userId != null and vo.userId != ''">
+                and a.user_id = #{vo.userId}
+            </if>
+            <if test="vo.status != null and vo.status != ''">
+                and a.status = #{vo.status}
+            </if>
+            <if test="vo.createTimeBegin != null and vo.createTimeBegin != ''">
+                and a.create_time >= #{vo.createTimeBegin}
+            </if>
+            <if test="vo.createTimeEnd != null and vo.createTimeEnd != ''">
+                and a.create_time &lt;= #{vo.createTimeEnd}
+            </if>
+        </where>
 
     </select>
 </mapper>

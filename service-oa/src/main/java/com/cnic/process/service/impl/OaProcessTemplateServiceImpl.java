@@ -6,10 +6,12 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.cnic.model.process.ProcessTemplate;
 import com.cnic.model.process.ProcessType;
 import com.cnic.process.mapper.OaProcessTemplateMapper;
+import com.cnic.process.service.OaProcessService;
 import com.cnic.process.service.OaProcessTemplateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import java.util.List;
 
@@ -25,6 +27,9 @@ import java.util.List;
 public class OaProcessTemplateServiceImpl extends ServiceImpl<OaProcessTemplateMapper, ProcessTemplate> implements OaProcessTemplateService {
     @Autowired
     private OaProcessTypeServiceImpl processTypeService;
+    @Autowired
+    private OaProcessService processService;
+
     @Override
     public IPage<ProcessTemplate> selectPageProcessTemplate(Page<ProcessTemplate> pageInfo) {
         // 分页查询
@@ -46,5 +51,9 @@ public class OaProcessTemplateServiceImpl extends ServiceImpl<OaProcessTemplateM
         ProcessTemplate processTemplate = baseMapper.selectById(id);
         processTemplate.setStatus(1);
         baseMapper.updateById(processTemplate);
+        //优先发布在线流程设计
+        if(!StringUtils.isEmpty(processTemplate.getProcessDefinitionPath())) {
+            processService.deployByZip(processTemplate.getProcessDefinitionPath());
+        }
     }
 }

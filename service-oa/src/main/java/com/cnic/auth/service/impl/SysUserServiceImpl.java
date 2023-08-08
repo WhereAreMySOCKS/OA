@@ -7,6 +7,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.cnic.model.system.SysUser;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 /**
  * <p>
  * 用户表 服务实现类
@@ -31,5 +33,10 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
         LambdaQueryWrapper<SysUser> wrapper = new LambdaQueryWrapper<>();
         wrapper.eq(SysUser::getUsername, username);
         return baseMapper.selectOne(wrapper);
+    }
+
+    @Override
+    public Map<String, Object> getCurrentUser() {
+        return null;
     }
 }

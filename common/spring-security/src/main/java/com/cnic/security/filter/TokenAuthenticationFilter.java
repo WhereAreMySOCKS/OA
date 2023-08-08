@@ -5,6 +5,7 @@ import com.cnic.common.jwt.JwtHelper;
 import com.cnic.common.result.Result;
 import com.cnic.common.result.ResultCodeEnum;
 import com.cnic.common.utils.ResponseUtil;
+import com.cnic.security.custom.LoginUserInfoHelper;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -50,6 +51,8 @@ public class TokenAuthenticationFilter extends OncePerRequestFilter {
         String token = request.getHeader("token");
         logger.info("token:"+token);
         if (!StringUtils.isEmpty(token)) {
+            LoginUserInfoHelper.setUserId(JwtHelper.getUserId(token));
+            LoginUserInfoHelper.setUsername(JwtHelper.getUsername(token));
             String username = JwtHelper.getUsername(token);
             logger.info("username:"+username);
             if (!StringUtils.isEmpty(username)) {

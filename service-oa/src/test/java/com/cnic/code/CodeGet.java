@@ -49,7 +49,7 @@ public class CodeGet {
         StrategyConfig strategy = new StrategyConfig();
 
         // 制定表名
-        strategy.setInclude("oa_process");
+        strategy.setInclude("oa_process_record");
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
 
