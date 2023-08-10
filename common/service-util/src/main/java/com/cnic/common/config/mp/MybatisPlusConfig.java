@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration
-@MapperScan(basePackages = {"com.cnic.auth.mapper","com.cnic.process.mapper"})
+@MapperScan(basePackages = {"com.cnic.*.mapper"})
 public class MybatisPlusConfig {
     /**
      * 新的分页插件,一缓和二缓遵循mybatis的规则,
