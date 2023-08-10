@@ -5,6 +5,11 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 查看日志
   mapper-locations:
     - classpath*:com/cnic/*/mapper/xml/*.xml
+wechat:
+  mpAPPId: wx320c3f4ea7ea1a59
+  mpAPPSecret: c7c229b6330d988da659e24f6488992c
+  userInfoUrl: http://cnicbigdata.v1.idcfengye.com/admin/wechat/userInfo
+
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource

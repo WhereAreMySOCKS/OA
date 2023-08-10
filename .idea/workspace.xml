@@ -4,28 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="update 审批列表">
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/cnic/security/custom/LoginUserInfoHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/controller/OaProcessRecordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/controller/api/ProcessController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/mapper/OaProcessRecordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/mapper/xml/OaProcessRecordMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/OaProcessRecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessRecordServiceImpl.java" afterDir="false" />
+    <list default="true" id="12baa1e5-7fc4-4064-ad74-3966cebe69ba" name="Changes" comment="新增微信公众号服务">
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/config/WeChatMpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/config/WechatAccountConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/controller/WechatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/mapper/xml/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/service/impl/MenuServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/cnic/security/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/cnic/security/filter/TokenAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/spring-security/target/classes/com/cnic/security/filter/TokenAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/target/classes/com/cnic/security/filter/TokenAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/mapper/xml/OaProcessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/mapper/xml/OaProcessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/OaProcessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/OaProcessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/OaProcessTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/OaProcessTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessTemplateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/cnic/common/jwt/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/cnic/common/jwt/JwtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/cnic/common/jwt/JwtHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/cnic/common/jwt/JwtHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/common/config/mp/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/cnic/common/config/mp/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/target/classes/com/cnic/common/config/mp/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/cnic/common/config/mp/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/cnic/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/cnic/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/target/classes/com/cnic/security/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/target/classes/com/cnic/security/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/controller/api/ProcessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/controller/api/ProcessController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code/CodeGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code/CodeGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/SysUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/auth/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/process/controller/OaProcessRecordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/process/controller/api/ProcessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/cnic/process/controller/api/ProcessController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/target/test-classes/com/cnic/code/CodeGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/test-classes/com/cnic/code/CodeGet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="new-activiti-diagram.bpmn20" />
         <option value="Class" />
       </list>
     </option>
@@ -85,50 +87,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/paul/JavaProject/OA/common/spring-security/src/main/java/com/cnic/security/custom",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22528736",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "fd59ed0bb19334c660bbcee13ec44c84",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paul/JavaProject/OA/service-oa/src/main/java/com/cnic/wechat&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22528736&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fd59ed0bb19334c660bbcee13ec44c84&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat" />
       <recent name="$PROJECT_DIR$/common/spring-security/src/main/java/com/cnic/security/custom" />
       <recent name="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/controller" />
       <recent name="$PROJECT_DIR$/service-oa/target/classes/com/cnic/process/mapper" />
       <recent name="$PROJECT_DIR$/service-oa/src/main/resources" />
-      <recent name="$PROJECT_DIR$/service-oa/src/test/java/com/cnic/code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/service" />
+      <recent name="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/service/impl" />
+      <recent name="$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/controller" />
       <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/service-oa/src/main/resources/com/cnic/auth/mapper" />
-      <recent name="$PROJECT_DIR$/service-oa/src/main/resources/com.cnic.auth.mapper.xml" />
-      <recent name="$PROJECT_DIR$/service-oa/src/main/resources/com/auth" />
-      <recent name="$PROJECT_DIR$/service-oa/src/main/resources/com" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.cnic" />
@@ -149,17 +151,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-oa" />
+    <configuration name="JwtHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cnic.common.jwt.JwtHelper" />
+      <module name="common-util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cnic.*" />
+          <option name="PATTERN" value="com.cnic.common.jwt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cnic.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.cnic.auth.MyTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,16 +227,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeGet" />
-      <item itemvalue="JUnit.MyTest" />
       <item itemvalue="JUnit.MyTest.testAdd" />
       <item itemvalue="JUnit.MyTest.testSerivce" />
       <item itemvalue="Spring Boot.ServiceAuthApplication" />
+      <item itemvalue="应用程序.CodeGet" />
+      <item itemvalue="应用程序.JwtHelper" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServiceAuthApplication" />
-        <item itemvalue="Application.CodeGet" />
+        <item itemvalue="应用程序.CodeGet" />
+        <item itemvalue="应用程序.JwtHelper" />
         <item itemvalue="JUnit.MyTest.testSerivce" />
         <item itemvalue="JUnit.MyTest.testAdd" />
       </list>
@@ -281,6 +284,9 @@
       <workItem from="1691244883776" duration="3259000" />
       <workItem from="1691248167939" duration="1447000" />
       <workItem from="1691249648695" duration="937000" />
+      <workItem from="1691560470298" duration="642000" />
+      <workItem from="1691561127350" duration="15570000" />
+      <workItem from="1691655481030" duration="2516000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1685786757163</created>
@@ -464,7 +470,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691145492580</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fixed problem">
+      <created>1691515559180</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1691515559180</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fixed problem">
+      <created>1691515594843</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1691515594843</updated>
+    </task>
+    <task id="LOCAL-00029" summary="新增微信公众号服务">
+      <created>1691657999210</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691657999210</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +524,9 @@
     <MESSAGE value="update spring security" />
     <MESSAGE value="update redis" />
     <MESSAGE value="update 审批列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 审批列表" />
+    <MESSAGE value="fixed problem" />
+    <MESSAGE value="新增微信公众号服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增微信公众号服务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,14 +557,24 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/service/impl/OaProcessTemplateServiceImpl.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/process/controller/OaProcessTemplateController.java</url>
           <line>41</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/service/impl/MenuServiceImpl.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/service/impl/MenuServiceImpl.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/cnic/wechat/controller/WechatController.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -47,7 +47,11 @@
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.4.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId> weixin-java-mp </artifactId>
+            <version>4.5.0</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity-engine-core</artifactId>
@@ -67,12 +71,7 @@
         </dependency>
     </dependencies>
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
+
         <resources>
             <resource>
                 <directory>src/main/java</directory>
